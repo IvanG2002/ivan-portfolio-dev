@@ -14,6 +14,7 @@ function ResumeCard({ company, title, startDate, endDate, description, logo }) {
                 className='h-[40px] w-[40px] bg-[#FAFAFA] rounded-full border border-[#E5E7EB]'
                 src={logo}
                 alt={`${company} logo`}
+                title={`${company} logo`}
             />
             <div className='flex flex-col gap-[7px]'>
                 <header className='flex justify-between'>
