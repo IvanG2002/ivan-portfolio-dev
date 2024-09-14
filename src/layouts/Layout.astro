@@ -17,34 +17,29 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot />
+		<main class="main lg:max-w-[600px] mt-[50px] mx-auto sm:max-w-[320px] md:max-w-[320px]">
+			<slot />
+		</main>
 	</body>
 </html>
 <style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
+	@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Inter";
 	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
+
+	@media (min-width: 375px) and (max-width: 599px)  {
+		.main {
+			max-width: 85%;
+		}
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
+	@media (min-width: 600px) and (max-width: 1024px)  {
+		.main {
+			max-width: 40%;
+		}
 	}
 </style>
