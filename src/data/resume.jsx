@@ -92,7 +92,7 @@ export const DATA = {
             links: [
                 {
                     type: "Website",
-                    href: "#",
+                    href: "",
                     icon: <Icons.globe className="size-3"></Icons.globe>
                 },
                 {
@@ -112,25 +112,24 @@ export const DATA = {
                 `The Link Cut Application enhances efficiency by automating the management of large volumes of linked data. It reduces processing time and human error, and features real-time monitoring, predictive analysis, 
                 and data visualization to streamline workflows and improve decision-making.`,
             technologies: [
-                "React",
+                "Next.js",
+                "Typescript",
                 "framer motion",
                 "TailwindCSS",
                 "Shadcn",
-                "Lucid Frame",
-                "Express.js",
-                "Typescript",
-                "SQL",
-                "Turso"
+                "lucide-react",
+                "Prisma",
+                "Supabase",
             ],
             links: [
                 {
                     type: "Website",
-                    href: "#",
+                    href: "https://tiny-route-app.vercel.app/",
                     icon: <Icons.globe className="size-3"></Icons.globe>
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/IvanG2002/TinyRoute",
+                    href: "https://github.com/IvanG2002/tiny-route-nextjs",
                     icon: <Icons.github className="size-3"></Icons.github>
                 },
             ],
