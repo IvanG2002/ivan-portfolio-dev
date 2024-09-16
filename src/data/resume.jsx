@@ -80,14 +80,11 @@ export const DATA = {
                 `A web-based encyclopedia for Express.js, featuring searchable documentation, user contributions, and a public API, aimed at providing a 
                 comprehensive resource for learning and referencing the framework.`,
             technologies: [
-                "React",
-                "Express.js",
-                "Typescript",
-                "MySql",
+                "Next.js",
+                "Javascript",
                 "Svgl",
-                "NodeJs",
-                "Lucid Icon",
-                "Framer Motion"
+                "lucide-react",
+                "tailwindcss"
             ],
             links: [
                 {
@@ -101,7 +98,7 @@ export const DATA = {
                     icon: <Icons.github className="size-3"></Icons.github>
                 },
             ],
-            image: "./wikiNode.webp",
+            image: "./nodejs-wiki.webp",
         },
         {
             title: "TinyRoute",
