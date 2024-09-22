@@ -89,12 +89,12 @@ export const DATA = {
             links: [
                 {
                     type: "Website",
-                    href: "",
+                    href: "https://node-wiki-nextjs.vercel.app/",
                     icon: <Icons.globe className="size-3"></Icons.globe>
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/IvanG2002/node-wiki/",
+                    href: "https://github.com/IvanG2002/nodejs-wiki-nextjs",
                     icon: <Icons.github className="size-3"></Icons.github>
                 },
             ],
