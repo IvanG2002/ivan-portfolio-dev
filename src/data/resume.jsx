@@ -9,7 +9,7 @@ export const DATA = {
             end: "2025",
         },
     ],
-    skills: ["React", "Express.js", "Js", "Typescript", ".NET", "Oracle", "SQL Server", "Docker", "Docker Compose"],
+    skills: ["React", "Angular", "Express.js", "Js", "Typescript", ".NET", "Oracle", "SQL Server", "Docker", "Docker Compose", "Power Bi"],
     work: [
         {
             company: "UACJ",
@@ -27,7 +27,7 @@ export const DATA = {
         {
             company: "Bosch",
             location: "Presential",
-            title: "Developer Intern",
+            title: "Software Developer Internship",
             logoUrl: "./bosch.svg",
             start: "Jun 2023",
             end: "May 2024",
@@ -38,16 +38,15 @@ export const DATA = {
                 Implemented CRUD functionalities to 
                 enhance data management and contributed 
                 to data visualizations using Oracle and Power BI, 
-                supporting better decision-making. Collaborated with 
-                teams and developed technical documentation.`,
+                supporting better decision making.`,
         },
         {
             company: "Grupo Palco",
             location: "Presential",
-            title: "Jr Programmer",
+            title: "Software Engineer",
             logoUrl: "./Palco.png",
-            start: "May 2024",
-            end: "May 2024",
+            start: "Jun 2024",
+            end: "Jul 2024",
             description:
                 `Developed and maintained software applications using HTML, CSS,
                     JavaScript, ASP.NET, and Windows Forms.
@@ -58,10 +57,10 @@ export const DATA = {
         {
             company: "BRP",
             location: "Presential",
-            title: "RAM trainee",
+            title: "Software Developer Internship",
             logoUrl: "./BRP.svg",
-            start: "May 2024",
-            end: "Jul 2024",
+            start: "Aug 2024",
+            end: "Oct 2024",
             description:
                 `Developed SCADA systems using Ignition,
                     focusing on Perspective and Vision modules.
@@ -131,6 +130,42 @@ export const DATA = {
                 },
             ],
             image: "./tinyRoute.webp",
+        },
+        {
+            title: "Job Seeker",
+            href: "#",
+            dates: "Oct 2024 - Nov 2024",
+            active: true,
+            description:
+                `Stay organized and efficient in your job search with 
+                an all-in-one tool to track applications, 
+                Focus on landing your next opportunity.`,
+            technologies: [
+                "Next.js",
+                "Typescript",
+                "tRPC",
+                "Prisma",
+                "Tailwind CSS",
+                "Framer motion",
+                "Shadcn",
+                "Lucide-react",
+                "Supabase",
+                "PostgreSQL",
+                "NextAuth.js"
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "#",
+                    icon: <Icons.globe className="size-3"></Icons.globe>
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/IvanG2002/job-seeker",
+                    icon: <Icons.github className="size-3"></Icons.github>
+                },
+            ],
+            image: "./JobSeeker.webp",
         },
     ]
 }

@@ -9,12 +9,13 @@ function Hero() {
             transition={{ duration: 0.2 }}
         >
             <h1 className="text-6xl text-[#08090A] font-bold">
-                Hi there, I'm Ivan 👋
+                Hi there, I'm Ivan👋
             </h1>
             <p className="text-[#08090A]">
-                I'm a Software Developer focused on growing as a full-stack developer, 
-                with expertise in JavaScript and C#. I work with frameworks such as React, 
-                .NET, and Express.js.
+                I'm a Software Developer focused on creating useful and creative solutions.
+                I enjoy working with teams and adding value to important projects.
+                I like solving tough problems and using my
+                skills to help each project succeed and deliver good results.
             </p>
         </motion.section>
     )
