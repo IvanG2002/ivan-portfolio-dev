@@ -19,7 +19,7 @@ export const DATA = {
             start: "Jul 2022",
             end: "Jan 2023",
             description:
-                `Worked as an intern at my university, providing support to professors and students.
+                `Worked as an intern at my university, providing support to professors, students and courses web app.
                     Responsible for the creation and management of courses,
                     Tracked and managed daily tasks,
                     Assisted professors and students with various academic and administrative needs.`,
@@ -71,7 +71,7 @@ export const DATA = {
     ],
     projects: [
         {
-            title: "Express.Js Wiki",
+            title: "🌍 Express.Js Wiki",
             href: "#",
             dates: "Aug 2024 - Sept 2024",
             active: true,
@@ -100,7 +100,7 @@ export const DATA = {
             image: "./nodejs-wiki.webp",
         },
         {
-            title: "TinyRoute",
+            title: "🔗 TinyRoute",
             href: "#",
             dates: "Sept 2024 - Oct 2024",
             active: true,
@@ -112,7 +112,7 @@ export const DATA = {
                 "Typescript",
                 "framer motion",
                 "TailwindCSS",
-                "Shadcn",
+                "shadcn/ui",
                 "lucide-react",
                 "Prisma",
                 "Supabase",
@@ -132,7 +132,40 @@ export const DATA = {
             image: "./tinyRoute.webp",
         },
         {
-            title: "Job Seeker",
+            title: "🤖 Stock.ai",
+            href: "#",
+            dates: "Nov 2024 - Dec 2024",
+            active: true,
+            description:
+                `Stock.ai is a cutting-edge text-to-image generator 
+                powered by the serverless Stable Diffusion 3.5 Large model 
+                via the Hugging Face API. It enables users to transform text 
+                prompts into stunning visuals effortlessly,
+                perfect for creators seeking fast, high-quality 
+                results without the need for complex infrastructure.`,
+            technologies: [
+                "Next.js",
+                "Typescript",
+                "lucide-react",
+                "shadcn/ui",
+                "Hugging Face"
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://stockai-beta.vercel.app/",
+                    icon: <Icons.globe className="size-3"></Icons.globe>
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/IvanG2002/stock.ai",
+                    icon: <Icons.github className="size-3"></Icons.github>
+                },
+            ],
+            image: "./stockAi.webp",
+        },
+        {
+            title: "💼 Job Seeker",
             href: "#",
             dates: "Oct 2024 - Nov 2024",
             active: true,
@@ -147,8 +180,8 @@ export const DATA = {
                 "Prisma",
                 "Tailwind CSS",
                 "Framer motion",
-                "Shadcn",
-                "Lucide-react",
+                "shadcn/ui",
+                "lucide-react",
                 "Supabase",
                 "PostgreSQL",
                 "NextAuth.js"
@@ -166,6 +199,45 @@ export const DATA = {
                 },
             ],
             image: "./JobSeeker.webp",
+        },
+        {
+            title: "🍿 Watchy",
+            href: "#",
+            dates: "Oct 2024 - Nov 2024",
+            active: true,
+            description:
+                `A scalable movie organization app hosted on AWS, 
+                allowing users to manage and categorize their movie 
+                collections effortlessly. With AWS services like EC2, S3, and RDS, 
+                it ensures high performance, security, and seamless scaling as your collection grows. 
+                Ideal for movie enthusiasts and collectors.`,
+            technologies: [
+                "React",
+                "Typescript",
+                "S3 Aws",
+                "Cloud Front Aws",
+                "Aws lambdas",
+                "Express.js",
+                "lucide-react",
+                "Api gateway Aws",
+                "Supabase",
+                "PostgreSQL",
+                "Aws Cognito",
+                "Framer motion"
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "#",
+                    icon: <Icons.globe className="size-3"></Icons.globe>
+                },
+                {
+                    type: "Source",
+                    href: "#",
+                    icon: <Icons.github className="size-3"></Icons.github>
+                },
+            ],
+            image: "./watchy.webp",
         },
     ]
 }
